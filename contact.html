@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@500&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .container {
+            width: 900px;
+            border: 3px solid rgb(57, 11, 225);
+            margin: 50px 153px;
+            /* background-color: sandybrown; */
+
+        }
+
+        .item {
+            border: 3px solid grey;
+            margin: 12px 3px;
+            padding: 12px 3px;
+            background-color: rgb(206, 172, 176);
+            border-radius: 20px;
+            font-size: large;
+            font-weight: 200;
+            text-decoration: underline;
+        }
+
+        body {
+            font-family: 'Edu TAS Beginner', cursive;
+        }
+
+        #social {
+            float: left;
+            width: 48%;
+        }
+
+        #onsite {
+            float: right;
+            width: 48%;
+            height: 266px;
+        }
+
+        #online {
+            /* float: left; */
+            clear: both;
+            width: 99%;
+        }
+
+        p,
+        h3 {
+            text-align: right;
+            text-align: left;
+            /*It overwrite 1st property*/
+            text-align: center;
+            text-align: justify;
+        }
+
+        h1 {
+            margin: auto;
+            width: 288px;
+        }
+
+        .btn {
+            background-color: blueviolet;
+            padding: 6px;
+            border: none;
+            cursor: pointer;
+            font-size: 12px;
+            border-radius: 4px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        a:hover {
+            color: aliceblue;
+            background-color: rgb(255, 0, 0);
+        }
+
+        a:visited {
+            background-color: rgb(47, 0, 255);
+        }
+
+        a:active {
+            background-color: navy;
+            
+        }
+
+        body {
+            background-image: url(jyotilogo.jpg);
+            /* image-orientation: from-image; */
+            background-repeat: no-repeat;
+            height: 100%;
+            width: 100%;
+            background-position: center;
+            background-size: 95%;
+            padding: 90px;
+        }
+
+        /* .box {
+            border: 2px solid red;
+            width: 150px;
+            height: 150px;
+            margin: 2px;
+            display: inline-block;
+            border-radius: 40px;
+            right: 129px;
+            position: fixed;
+            background-image: url(jyotilogo.jpg);
+            image-orientation: flip;
+        } */
+    </style>
+</head>
+
+<body>
+    <div id="box1" class="box"></div>
+    <div class="container">
+        <h1 style="color: rgb(245, 238, 240);"><u><strong>Let's Have a Talk</strong></u></h1>
+        <div id="social" class="item">
+            <h2><u>Social Contact</u></h2>
+            <p id="socialpara" class="para">
+            <ul>
+                <li><a href="mailto:jgec.jyoti@gmail.com">Email id:jgec.jyoti@gmail.com </a></li> <br>
+                <li><a href="https://www.facebook.com/jgecjyoti?mibextid=ZbWKwL"> Facebook Id: Jyoti - Free
+                        Night-Education
+                        Centre</a></li><br>
+                <li><a href="https://www.linkedin.com/company/jyotijgec/"> LinkedIn :- JYOTI - A Ray of Hope</a></li><br>
+                <li><a href="https://instagram.com/jyotijgec?igshid=NzZlODBkYWE4Ng==">Instragram: jyotijgec</a></li>
+            </ul>
+            </p>
+        </div>
+        <div id="onsite" class="item">
+            <h2><u>On Site</u></h2>
+            <p id="onsitepara" class="para">
+            <ul>
+                <li>Place: Jalpaiguri Government Enginnering College</li>
+                <li>Denguajhar</li>
+                <li>Jalpaiguri</li>
+                <li>W.B,735102</li>
+                <li>
+                    <a href="https://maps.app.goo.gl/uJXHGdrAya8KwDo57" class="btn">Location</a>
+                </li>
+            </ul>
+            </p>
+        </div>
+        <div id="online" class="item">
+            <h2><u>Online Contact</u></h2>
+            <p id="onlinepara" class="para">
+                Your Suggestions is more valuable for us. Here you can share yours thoughts with us.
+            </p>
+            <a href="forms.html" class="btn">Forms Page</a>
+            <!-- <button class="btn">Contact Us</button> -->
+        </div>
+        <div id="oursidepara" class="item">
+            <h2><u>From Our Side</u></h2>
+            <p id="oursidepara" class="para">
+            <ul>
+                <li>Thanks For sharing your thoughts with us</li>
+                <li>Your thoughts and Suggestion will help us to build our organisation strong.</li>
+                <li>We are continuously trying to fullfill all the necessities of the students and hope we will archive
+                    it. </li>
+            </ul>
+            </p>
+
+        </div>
+    </div>
+</body>
+
+</html>
